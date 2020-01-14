@@ -4,14 +4,7 @@
     "authors": [
         {
             "name": "Tayron Miranda",
-            "email": "dev@tayron.com.br"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "git", 
-            "url" : "https://tayronmiranda@bitbucket.org/onframework/on-framework-core.git",
-            "reference": "origin/master"
+            "email": "contato@tayron.com.br"
         }
     ],
     "require": {
