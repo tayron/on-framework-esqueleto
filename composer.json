@@ -1,0 +1,27 @@
+{
+    "name": "OnFramework",
+    "description": "Micro Framework para desenvolvimento PHP",
+    "authors": [
+        {
+            "name": "Tayron Miranda",
+            "email": "dev@tayron.com.br"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git", 
+            "url" : "https://tayronmiranda@bitbucket.org/onframework/on-framework-core.git",
+            "reference": "origin/master"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "onframework/core" : "dev-master"
+    },    
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src",
+            "ApplicationTest\\": "tests"
+        }
+    }    
+}
